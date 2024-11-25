@@ -2,8 +2,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./Components/Header/Header"
 import Home from "./Components/Home/Home"
-import Novidades from "./Components/Novidade/Novidades"
-import Sobre from "./Components/Sobre/Sobre"
+import News from "./Components/News/News"
+import About from "./Components/About/About"
 
 
 function App() {
@@ -13,8 +13,8 @@ function App() {
 <Header/>
 <Routes>
   <Route path="/" element={<Home/>}/>
-  <Route path="/novidades" element={<Novidades/>}/>
-  <Route path="/sobre" element={<Sobre/>}/>
+  <Route path="/novidades" element={<News/>}/>
+  <Route path="/sobre" element={<About/>}/>
 </Routes>
 </BrowserRouter>
     </>

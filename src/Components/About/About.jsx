@@ -1,8 +1,8 @@
 import starbucks from "../../assets/img/starbucks.png";
-import {Main, Img, Section,} from "./SobreStyled";
+import {Main, Img, Section,} from "./AboutStyled";
 import { Button } from "../Home/HomeStyled";
 
-const Sobre = () => {
+const About = () => {
   return (
     <Main>
       <Img src={starbucks} alt="Loja Starbucks" />
@@ -20,4 +20,4 @@ const Sobre = () => {
   );
 };
 
-export default Sobre;
+export default About;

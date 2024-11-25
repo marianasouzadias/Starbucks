@@ -67,7 +67,7 @@ export const Button = styled.button`
    }
 `;
 
-export const Circulo = styled.img`
+export const Circle = styled.img`
   position: absolute;
   bottom: 0;
   right: 0;
@@ -81,7 +81,7 @@ export const Circulo = styled.img`
    }
 `;
 
-export const CopoGrande = styled.img`
+export const BigCup = styled.img`
   position: absolute;
   bottom: 80px;
   right: 5px;
@@ -97,11 +97,11 @@ export const CopoGrande = styled.img`
 `;
 
 
-export const CopoPequeno = styled.div`
+export const SmallCup = styled.div`
   display: flex;
   position: absolute;
-  left: 50%; /* Posiciona o centro da div em relação à tela */
-  transform: translateX(-50%); /* Ajusta para que o elemento fique realmente centralizado */
+  left: 50%; 
+  transform: translateX(-50%); 
   bottom: 30px;
   gap: 15px;
 

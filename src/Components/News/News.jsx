@@ -1,9 +1,9 @@
 import grao from "../../assets/img/grao.png";
-import { MainStyled, Section, Img} from "./NovidadeStyled";
+import { MainStyled, Section, Img} from "./NewsStyled";
 import { Button } from "../Home/HomeStyled";
 
 
-const Novidade = () => {
+const News = () => {
   return (
     <MainStyled>
       <Section>
@@ -21,4 +21,4 @@ const Novidade = () => {
     </MainStyled>
   );
 };
-export default Novidade;
+export default News;;

@@ -13,17 +13,17 @@ import {
   Container,
   Section,
   Button,
-  CopoPequeno,
-  CopoGrande,
-  Circulo,
+ SmallCup,
+ BigCup,
+  Circle,
 } from "./HomeStyled";
 
 const Home = () => {
-  const [copo, setCopo] = useState(amareloG);
+  const [cup, setCup] = useState(amareloG);
   const [ellipse, setEllipse] = useState(EllipseAmarelo);
 
-  const click = (copo, ellipse) => {
-    setCopo(copo);
+  const click = (cup, ellipse) => {
+    setCup(cup);
     setEllipse(ellipse);
   };
 
@@ -43,10 +43,10 @@ const Home = () => {
         <Button>SAIBA MAIS</Button>
       </Section>
       <div>
-        <Circulo src={ellipse} alt="Círculo" />
-        <CopoGrande src={copo} alt="Copo Grande" />
+        <Circle src={ellipse} alt="Círculo" />
+        < BigCup  src={cup} alt="Copo Grande" />
       </div>
-      <CopoPequeno>
+      <SmallCup>
         <img
           src={laranjaP}
           alt="Copo Pequeno 1"
@@ -62,7 +62,7 @@ const Home = () => {
           alt="Copo Pequeno 3"
           onClick={() => click(amareloG, EllipseAmarelo)}
         />
-      </CopoPequeno>
+      </SmallCup>
     </Container>
   );
 };
