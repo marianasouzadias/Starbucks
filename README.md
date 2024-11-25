@@ -2,7 +2,7 @@
 
 ![projeto-starbuks](https://github.com/user-attachments/assets/c77d176f-e0f6-44c0-86ea-70987ba96c1b)
 
-
+https://starbuksprojeto.netlify.app/ 
 
 Este é um projeto simples desenvolvido com **React** e **Vite**, que simula uma interface interativa para o Starbucks. O design foi baseado em um **protótipo do Figma**, garantindo uma experiência visual atraente. O projeto é responsivo e utiliza **Styled Components** para o design e **@media queries** para garantir uma boa experiência de uso em dispositivos móveis.
 
